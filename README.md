@@ -6,13 +6,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 5b8d0fd276b6d288905ed2f63a934e057e8feca2
 
+## Prerequisites
+Node.js v16.15.1 or newer
+
+Angular CLI 14.0.2 or newer
+
+## Initial Setup
+Run `npm install` from the root directory to install all dependecies.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
