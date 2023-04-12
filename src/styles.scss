@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .button {
+    @apply h-14 rounded border border-sky-300 bg-transparent text-3xl text-sky-500 shadow-sm bg-gradient-to-b from-white to-slate-100 select-none;
+    &:hover {
+      @apply bg-gradient-to-b from-white to-slate-200;
+    }
+  }
+  
+  .operator {
+    @apply bg-gradient-to-b from-sky-300 to-sky-500 text-white border border-sky-400 hover:bg-gradient-to-b hover:from-sky-300 hover:to-sky-600;
+  }
+
+  .grid-equals {
+    grid-area: 2 / 4 / 6 / 5
+  }
+}
+
